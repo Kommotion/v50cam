@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">V50Cam</string>
+    <string name="label_camera">Camera</string>
+    <string name="label_resolution">Resolution</string>
+    <string name="label_fps">Frame rate</string>
+    <string name="label_bitrate">Bitrate</string>
+    <string name="codec_mjpeg">Codec: MJPEG</string>
+    <string name="codec_h264">Codec: H.264</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="ae_on">AE lock: ON</string>
+    <string name="ae_off">AE lock: off</string>
+    <string name="af_on">AF lock: ON</string>
+    <string name="af_off">AF lock: off</string>
+    <string name="hint">No on-phone preview. That keeps the stream up when this screen goes away. Frame the shot in OBS. This screen stays on while a stream is running and the app is open.</string>
+    <string name="loading_cameras">Looking at cameras…</string>
+    <string name="status_stopped">Stopped.</string>
+    <string name="channel_name">V50Cam streaming</string>
+    <string name="notif_stop">Stop</string>
+    <string name="need_camera_permission">Camera permission is needed. Tap Start and allow Camera.</string>
+    <string name="no_camera">No camera found.</string>
+    <string name="camera_denied">Camera permission was denied. Tap Start to allow the camera. The stream cannot start without it.\nClient: not connected\nFPS: 0\nBitrate: 0 Mbps\nDropped: 0</string>
+    <string name="camera_denied_forever">Camera permission was denied, and Android will not ask again. Open Settings, Apps, V50Cam, Permissions, and allow Camera.\nClient: not connected\nFPS: 0\nBitrate: 0 Mbps\nDropped: 0</string>
+    <string name="fgs_not_allowed">Android blocked the stream from starting in the background. Leave V50Cam open on screen, then tap Start.\nClient: not connected\nFPS: 0\nBitrate: 0 Mbps\nDropped: 0</string>
+    <string name="camera_qs_off">Camera access is turned off in Quick Settings. Swipe down twice and turn Camera access on, then start again.</string>
+    <string name="camera_no_frames">Camera opened but no frames arrived.</string>
+</resources>
